@@ -1,0 +1,194 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+  }
+
+.Login{
+    
+    display: flex;
+    
+    .ant-form-item {
+        text-align: left;
+        margin: auto;
+        .ant-form-item-label {
+            text-align: left;
+            padding: 16px 0;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+    .anticon svg {
+        position: absolute;
+        margin-left: -30px;
+        margin-top: -15px;
+    }
+
+    .Login-content{
+        width: 40%;
+        background-color: #F7F7F7;
+        .Login-content_1{
+            justify-content: center;
+            margin-top: 20%;
+            .Login-content_2{
+                .Login-logo{
+                    margin: 100px 0;
+                    
+                }
+            }
+            .ant-form-item-explain-error {
+                color: red;
+                padding-top: 7px;
+            }
+            .Login-resetpass{
+                margin-top: 25px;
+                text-align: justify;
+                a{
+                    color: red;
+                    text-decoration: none;
+                    text-align: left;
+                    font-size: 20px;
+                    padding-left: 27%;
+                }
+            }
+            .Login-form1{
+                display: flex;
+                flex-direction: column;
+                padding: 10px 0;
+
+                input{
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 10px 270px 10px 12px;
+                    gap: 10px;
+                    width: 400px;
+                    height: 44px;
+                    background: #FFFFFF;
+                    border: 1.5px solid #D4D4D7;
+                    border-radius: 8px;
+
+                }
+                input:focus{
+                    outline: none;
+                }
+
+            }
+            .Login-form2{
+                display: flex;
+                flex-direction: column;
+                input{
+                    box-sizing: border-box;
+                    display: inline;
+                    align-items: center;
+                    padding: 10px 270px 10px 12px;
+                    gap: 10px;
+                    width: 400px;
+                    height: 44px;
+                    background: #FFFFFF;
+                    border: 1.5px solid #D4D4D7;
+                    border-radius: 8px;
+
+                }
+                input:focus{
+                    outline: none;
+                }
+                
+            }
+            .Login-btn{
+                padding-top: 20px;
+                button{
+                    background-color: #FF9138;
+                    padding: 20px 55px;
+                    box-shadow: 0px 0px 6px #E7E9F2;
+                    border-radius: 8px;
+                    color: white;
+                    border: none;
+                    font-weight: 600;
+                    font-size: 16px;
+                    font-family: 'Tahoma';
+                    cursor: pointer;
+                }
+                
+            }
+
+        }
+    }
+    .ant-form-item {
+        display: flex;
+        flex-direction: column;
+        
+      }
+    .Login-1{
+        
+        width: 60%;
+        
+        height: 100vh;
+        background-color: #ffff;
+        padding-right: 3%;
+        .Login-2-img{
+            
+            height: 100vh;
+            background: url(../../../public/imgs/poster02.png) no-repeat;
+            background-position: center center;
+            background-size: 850px 850px;
+        }
+        .Login-1-img{
+            
+            height: 100vh;
+            background: url(../../../public/imgs/login-img.svg) no-repeat;
+            background-position: center center;
+            background-size: 850px 850px;
+            h4{
+                color: #FF7506;
+                position: absolute;
+                width: 142px;
+                height: 54px;
+                padding-left: 30%;
+                padding-top: 507px;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 34px;
+                line-height: 51px;
+            }
+            h3{
+                color: #FF7506;
+                position: absolute;
+                width: 365px;
+                height: 54px;
+                padding-left: 30%;
+                padding-top: 557px;
+                font-family: 'Tahoma';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                
+            }
+        }
+
+    }
+    
+}
+
+.title-h4{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.title-p{
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.btn-huy{
+    background-color: white !important;
+    padding: 20px 55px !important;
+    box-shadow: 0px 0px 6px #FF9138 !important;
+    border-radius: 8px !important;
+    color: #FF9138 !important;
+    border: 1px solid #FF9138 !important;
+    margin-right: 20px!important;    
+}
